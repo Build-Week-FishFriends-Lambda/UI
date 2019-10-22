@@ -271,6 +271,17 @@ footer {
     border-bottom: none;
   }
 }
+.dreamTeam {
+  font-size: 4vw;
+  color: #333333;
+  width: 30%;
+  margin: 60px auto 0px auto;
+}
+.dreamTeam h1 {
+  border-bottom: 3px solid #333333;
+  padding: 10px;
+  text-align: center;
+}
 .row__1 {
   display: flex;
   justify-content: center;
