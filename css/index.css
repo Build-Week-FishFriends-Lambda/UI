@@ -139,9 +139,11 @@ body {
 h1,
 h2,
 h3,
-p,
 a {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+p {
+  font-family: 'Lato', sans-serif;
 }
 .container {
   width: 100%;
