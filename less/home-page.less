@@ -1,1 +1,85 @@
 // Home Content
+
+.header__1 {
+	background-color: #333333;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	
+	.headingImg{
+		height: 68px;
+		margin-top: 10px;
+		margin-left: 30px;
+    }
+}
+
+.mainBox {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/fishing-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 160px;
+
+	h1 {
+		color: #c7aa8b;
+		padding-top: 30px;
+		width: 90%;
+		margin: 0 auto;
+		font-size: 9.5em;
+		text-align: center;	
+	}
+
+	.fishyBox {
+
+		.center();
+		flex-direction: column;
+		//margin-top: 75px;
+		border: 1px solid rgba(250, 244, 244, 0.678);
+		width: 50%;
+		margin: 0 auto;
+		background-color: rgba(128,128,128,0.5);
+		height: 360px;
+		background: @box-bg;
+
+		.btn {
+			.custom-button(); 
+		}
+	}
+}
+// ======================= END UPPER SECTION ==========================
+
+
+
+// ======================= START BOTTOM SECTION =========================
+
+.section {
+	width: 100%;
+	margin: 10% 0 10% 0;
+
+	.description {
+		width: 87%;
+		margin: 0 auto;
+		text-align: center;
+		//background-color: @header-footer-bg;
+		border-top: 3px solid @header-footer-bg;
+		border-bottom: 3px solid @header-footer-bg;
+		color: black;
+
+		h2 {
+			font-size: 5em;
+			padding: 30px 0 5px 0;
+			border-bottom: 2px solid black;
+			width: 40%;
+			margin: 0 auto;
+		}
+
+		p {
+			font-size: 3.5em;
+			padding: 30px;
+			line-height: 150%;
+		}
+	}
+}
+
+
