@@ -51,9 +51,13 @@
 			width: 80%;
 
 			h1 {
-				 font-size: 6.5rem;
+				 font-size: 11vw;
 			}
-		}	
+
+			.btn {
+				width: 50%;
+			}
+		}
 	}
 }
 // ======================= END UPPER SECTION HOME PAGE ==========================
@@ -121,6 +125,11 @@
 		padding: 10px;
 		text-align: center;
 	}
+
+	@media @phone { 
+		font-size: 8.0vw;
+		width: 50%;	
+	}
 }
 
 .row__1 {
@@ -132,6 +141,30 @@
 		width: 300px;
 		height: 300px;
 		border-radius: 3%;
+	}
+
+	@media @phone5 {
+		margin: 0px;
+	}
+
+	@media @phone4 {
+		margin: 0px;
+		
+		.box {
+			width: 86%;
+		}
+	}
+
+	@media @phone2 {
+		margin: 0px;
+	}
+
+	@media @phone {
+		margin: 0px;
+	}
+
+	@media @phone3 {
+		margin: 0px;
 	}
 }
 
@@ -146,6 +179,16 @@
 		height: 300px;
 		border-radius: 3%;
 	}
+
+	@media @phone3 {
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	@media @phone4 {
+		width: 100%;
+		align-items: center;
+	}
 }
 
 .box { 
@@ -158,6 +201,24 @@
 		font-size: 3.5em;
 		padding-top: 25px;
 		line-height: 150%;	
+	}
+	
+	@media @phone3 {
+		margin: 60px auto 60px auto;
+	}
+
+	@media @phone4 {
+		width: 86%;
+		margin: 60px auto 60px auto;
+	}
+
+	@media @phone {
+		padding: 32px;
+
+		img {
+			width: 250px;
+			height: 250px;
+		}
 	}
 }
 
