@@ -1,0 +1,28 @@
+// Mixins Here
+
+.center(){
+    display: flex;
+    justify-content: center;
+}
+
+.custom-button(){
+    text-align: center;
+    width: 30%;
+    padding: 15px 0;
+    font-size: 1.8rem;
+    border: 1.5px solid white;
+    margin: 70px auto 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2);
+    );
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+     &:hover {
+         color: @content-1-text;
+         background-color: white;
+    }
+}

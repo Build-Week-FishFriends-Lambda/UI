@@ -1,0 +1,226 @@
+// Home Content
+
+.header__1 {
+	background-color: #333333;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	
+	.headingImg{
+		height: 68px;
+		margin-top: 10px;
+		margin-left: 30px;
+    }
+}
+
+.mainBox {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/fishing-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 160px;
+
+	
+
+	.fishyBox {
+		border: 1px solid rgba(250, 244, 244, 0.678);
+		width: 50%;
+		margin: 0 auto;
+		background-color: rgba(128,128,128,0.5);
+		height: 360px;
+		background: @box-bg;
+
+		h1 {
+			color: #c7aa8b;
+			padding: 90px 0 0 0;
+			width: 100%;
+			font-size: 6.0vw;
+			text-align: center;
+		}
+
+		.btn {
+			.custom-button(); 
+		}
+	}
+
+	@media @phone {
+		height: 100%;
+
+		.fishyBox {
+			width: 80%;
+
+			h1 {
+				 font-size: 11vw;
+			}
+
+			.btn {
+				width: 50%;
+			}
+		}
+	}
+}
+// ======================= END UPPER SECTION HOME PAGE ==========================
+
+
+
+// ======================= START BOTTOM SECTION HOME PAGE =========================
+
+.section {
+	width: 100%;
+	margin: 10% 0 10% 0;
+
+	.description {
+		width: 87%;
+		margin: 0 auto;
+		text-align: center;
+		border-top: 3px solid @header-footer-bg;
+		border-bottom: 3px solid @header-footer-bg;
+		color: black;
+
+		h2 {
+			font-size: 5em;
+			padding: 30px 0 5px 0;
+			border-bottom: 2px solid black;
+			width: 40%;
+			margin: 0 auto;
+		}
+
+		p {
+			font-size: 3.5em;
+			padding: 30px;
+			line-height: 150%;	
+		}
+		
+		@media @phone {
+			width: 95%;
+
+			p {
+				padding: 30px 0;
+			}
+
+			h2 {
+				width: 70%;
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+// ============================== END HOME PAGE =====================================
+
+
+
+
+// ============================== START TEAM PAGE ===================================
+
+.dreamTeam{
+	font-size: 4.0vw;
+	color: #333333;
+	width: 30%;
+	margin: 60px auto 0px auto;
+
+	h1 {
+		border-bottom: 3px solid #333333;
+		padding: 10px;
+		text-align: center;
+	}
+
+	@media @phone { 
+		font-size: 8.0vw;
+		width: 50%;	
+	}
+}
+
+.row__1 {
+	.center();
+	width: 100%;
+	margin-top: 60px;
+
+	img {
+		width: 300px;
+		height: 300px;
+		border-radius: 3%;
+	}
+
+	@media @phone5 {
+		margin: 0px;
+	}
+
+	@media @phone4 {
+		margin: 0px;
+		
+		.box {
+			width: 86%;
+		}
+	}
+
+	@media @phone2 {
+		margin: 0px;
+	}
+
+	@media @phone {
+		margin: 0px;
+	}
+
+	@media @phone3 {
+		margin: 0px;
+	}
+}
+
+.row {
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+	margin: 60px auto;
+	
+	img {
+		width: 300px;
+		height: 300px;
+		border-radius: 3%;
+	}
+
+	@media @phone3 {
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	@media @phone4 {
+		width: 100%;
+		align-items: center;
+	}
+}
+
+.box { 
+	text-align: center;
+	background-color:#333333;
+	padding: 30px;
+	border-radius: 3%;
+
+	p {
+		font-size: 3.5em;
+		padding-top: 25px;
+		line-height: 150%;	
+	}
+	
+	@media @phone3 {
+		margin: 60px auto 60px auto;
+	}
+
+	@media @phone4 {
+		width: 86%;
+		margin: 60px auto 60px auto;
+	}
+
+	@media @phone {
+		padding: 32px;
+
+		img {
+			width: 250px;
+			height: 250px;
+		}
+	}
+}
+
+
+

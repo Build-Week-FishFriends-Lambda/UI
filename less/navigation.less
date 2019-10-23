@@ -1,0 +1,34 @@
+// Navigation code here
+
+.nav {
+    padding: 30px;
+
+    .abo {
+        border: 2px solid #c7aa8b;
+        margin-right: 10px;
+
+        &:hover {
+            background-color: @content-1-background;
+            color: black;
+        }
+    }
+
+    .hom {
+        color: #c7aa8b;
+    }
+
+	a {
+		text-decoration: none;
+		color: white;
+		margin: 20px;
+		font-size: 2.9em;
+		padding: 7px 10px;
+    }
+
+    @media @phone2 {
+        a {
+            margin: 0px;
+            padding: 6px;
+        }
+    }
+}
