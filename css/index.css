@@ -132,6 +132,7 @@ table {
 html,
 body {
   height: 100%;
+  min-height: 100%;
   font-size: 62.5%;
   background-color: #c7aa8b;
   color: white;
@@ -147,7 +148,8 @@ p {
 }
 .container {
   width: 100%;
-  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
 }
 .nav {
   padding: 30px;
@@ -177,13 +179,17 @@ p {
   }
 }
 footer {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: #858585;
   font-size: 1.5rem;
   padding: 15px;
   background-color: #333333;
   width: 100%;
+}
+.aboFoot {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
 }
 .header__1 {
   background-color: #333333;
